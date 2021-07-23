@@ -4,11 +4,31 @@ Mini Sınıfı Döner Kanat ve Sabit Kanat İHA’lar için Elektrik Motoru Deta
 
 Elektrik motorları, elektrik enerjisini mekanik enerjiye dönüştüren makinelerdir. Bu dönüşüm motordaki mıknatısların oluşturduğu manyetik alan ve bobinlere sarılı tellerden geçen akımın oluşturduğu elektrik alan arasında oluşan kuvvetle sağlanmaktadır. Bu ilişki Fleming'in sol el kuralı ile açıklanabilir [1]; daha iyi anlaşılması için Şekil 1 incelenmelidir.
 
+.. image:: ../resimler/Fleming'in-Sol-El-Kuralı.PNG
+   :target: ../_resimler/Fleming'in-Sol-El-Kuralı.PNG
+       
+Fleming'in Sol El Kuralı
+  
 Elektrik motorları sahip oldukları özelliklerine göre birçok farklı kategoride incelenebilirler. Bu kategoriler motora sağlanan güç tiplerine, motorun iç yapısına, kullanım amacına göre adlandırılmaktadır. Örnek olarak alternatif akım veya düz akım, fırçalı veya fırçasız, tek fazlı, çift fazlı veya üç fazlı gibi kategoriler gösterilebilir.
 
 Mini İHA’larda genel olarak fırçasız DC (Direct current, Düz akım) elektrik motorları kullanılmaktadır. Bu motorlar yüksek verimlilikleri, istenilen tork değerinin motor sürücüler ile sağlanabilmesi, oldukça hafif olmaları, boyutlarının küçük olması, temiz enerji kaynaklarından üretilen elektrik enerjisiyle çalışıyor olabilmeleri gibi nedenlerden dolayı tercih edilmektedirler. Fırçalı motorlar direk DC bir kaynaktan çalışabilseler de fırçasız motorlar daha verimli olduklarından tercih edilmektedir. Gelişen teknolojiyle fırçasız motorları sürmek için gereken motor sürücüler ucuzlamış ve fırçasız motorların kullanımını yaygınlaştırmıştır. Şekil 2 ve 3’te bu tiplere örnek motorlar gösterilmiştir.
 
+.. image:: ../resimler/Fırçalı-Motor.jpg
+        :target: ../_resimler/Fırçalı-Motor.jpg
+
+Fırçalı Motor
+
+.. image:: ../resimler/Fırçasız-Motor.jpg
+        :target: ../_resimler/Fırçasız-Motor.jpg
+
+Fırçasız Motor
+
 Fırçasız DC motorların motorun dönen kısmının içerde (Inrunner) veya dışarda (Outrunner) olduğu tipleri mevcuttur. İçten dönen motorlar dıştan dönen motorlara kıyasla verimlilikleri daha fazladır ve ısı dağılımları daha iyidir. Ancak pervanelerde kaldırma kuvveti oluşturabilmek için gerekli dönüş hızını sağlayacak tork değerleri dıştan dönen motorlarda daha fazladır [3]. Bu nedenle Mini İHA’larda dıştan dönen fırçasız DC motorlar tercih edilmektedir. Dıştan dönen motorlarda bobinler motorun sabit olan iç kısmında (stator), mıknatıslar ise motorun dönen kısmı olan (rotor) kısmında yer alır.
+
+.. image:: ../resimler/İçten-ve-Dıştan-Dönen-Fırçasız-DC-Motorlar.PNG
+        :target: ../_resimler/İçten-ve-Dıştan-Dönen-Fırçasız-DC-Motorlar.PNG
+      
+İçten ve Dıştan Dönen Fırçasız DC Motorlar 
 
 Fırçasız motorlar fırçalı motorlardaki gibi doğrudan bir DC güç kaynağı ile çalışamazlar. Sabit bir tork üretebilmek için Şekil 5’te de görüldüğü gibi elektrik geriliminin motorun faz kablolarına değişimli olarak uygulanması gerekmektedir. Bu çalışma mantığının daha iyi anlaşılması için animasyonlar izlenebilir [6]. Fırçasız motorlar değişen bu gerilimin sağlanabilmesi için bir sürücüye ihtiyaç duyarlar. Bu sürücü devresine Elektronik Hız Kontrolcüsü (Electronic Speed Controller) denmektedir. Elektronik hız kontrolcüleri detaylı bir şekilde ayrı bir başlıkta ele alınacak olup Şekil 6’de örnek olarak görülmektedir.
 
