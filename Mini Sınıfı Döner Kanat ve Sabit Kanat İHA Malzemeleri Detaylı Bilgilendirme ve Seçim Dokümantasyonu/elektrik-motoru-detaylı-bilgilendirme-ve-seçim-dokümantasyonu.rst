@@ -7,8 +7,8 @@ Elektrik motorları, elektrik enerjisini mekanik enerjiye dönüştüren makinel
 .. image:: ../resimler/Fleming'in-Sol-El-Kuralı.PNG
    :target: ../_resimler/Fleming'in-Sol-El-Kuralı.PNG
        
-Fleming'in Sol El Kuralı
-  
+Şekil 1. Fleming'in Sol El Kuralı [2]
+
 Elektrik motorları sahip oldukları özelliklerine göre birçok farklı kategoride incelenebilirler. Bu kategoriler motora sağlanan güç tiplerine, motorun iç yapısına, kullanım amacına göre adlandırılmaktadır. Örnek olarak alternatif akım veya düz akım, fırçalı veya fırçasız, tek fazlı, çift fazlı veya üç fazlı gibi kategoriler gösterilebilir.
 
 Mini İHA’larda genel olarak fırçasız DC (Direct current, Düz akım) elektrik motorları kullanılmaktadır. Bu motorlar yüksek verimlilikleri, istenilen tork değerinin motor sürücüler ile sağlanabilmesi, oldukça hafif olmaları, boyutlarının küçük olması, temiz enerji kaynaklarından üretilen elektrik enerjisiyle çalışıyor olabilmeleri gibi nedenlerden dolayı tercih edilmektedirler. Fırçalı motorlar direk DC bir kaynaktan çalışabilseler de fırçasız motorlar daha verimli olduklarından tercih edilmektedir. Gelişen teknolojiyle fırçasız motorları sürmek için gereken motor sürücüler ucuzlamış ve fırçasız motorların kullanımını yaygınlaştırmıştır. Şekil 2 ve 3’te bu tiplere örnek motorlar gösterilmiştir.
@@ -16,31 +16,31 @@ Mini İHA’larda genel olarak fırçasız DC (Direct current, Düz akım) elekt
 .. image:: ../resimler/Fırçalı-Motor.jpg
         :target: ../_resimler/Fırçalı-Motor.jpg
 
-Fırçalı Motor
+Şekil 2. Fırçalı Motor
 
 .. image:: ../resimler/Fırçasız-Motor.jpg
         :target: ../_resimler/Fırçasız-Motor.jpg
 
-Fırçasız Motor
+Şekil 3. Fırçasız Motor
 
 Fırçasız DC motorların motorun dönen kısmının içerde (Inrunner) veya dışarda (Outrunner) olduğu tipleri mevcuttur. İçten dönen motorlar dıştan dönen motorlara kıyasla verimlilikleri daha fazladır ve ısı dağılımları daha iyidir. Ancak pervanelerde kaldırma kuvveti oluşturabilmek için gerekli dönüş hızını sağlayacak tork değerleri dıştan dönen motorlarda daha fazladır [3]. Bu nedenle Mini İHA’larda dıştan dönen fırçasız DC motorlar tercih edilmektedir. Dıştan dönen motorlarda bobinler motorun sabit olan iç kısmında (stator), mıknatıslar ise motorun dönen kısmı olan (rotor) kısmında yer alır.
 
 .. image:: ../resimler/İçten-ve-Dıştan-Dönen-Fırçasız-DC-Motorlar.PNG
         :target: ../_resimler/İçten-ve-Dıştan-Dönen-Fırçasız-DC-Motorlar.PNG
       
-İçten ve Dıştan Dönen Fırçasız DC Motorlar 
+Şekil 4. İçten ve Dıştan Dönen Fırçasız DC Motorlar [4]
 
 Fırçasız motorlar fırçalı motorlardaki gibi doğrudan bir DC güç kaynağı ile çalışamazlar. Sabit bir tork üretebilmek için Şekil 5’te de görüldüğü gibi elektrik geriliminin motorun faz kablolarına değişimli olarak uygulanması gerekmektedir. Bu çalışma mantığının daha iyi anlaşılması için animasyonlar izlenebilir [6]. Fırçasız motorlar değişen bu gerilimin sağlanabilmesi için bir sürücüye ihtiyaç duyarlar. Bu sürücü devresine Elektronik Hız Kontrolcüsü (Electronic Speed Controller) denmektedir. Elektronik hız kontrolcüleri detaylı bir şekilde ayrı bir başlıkta ele alınacak olup Şekil 6’de örnek olarak görülmektedir.
 
 .. image:: ../resimler/Faz-Kablolarına-Uygulanan-Gerilim-Grafiği.PNG
         :target: ../_resimler/Faz-Kablolarına-Uygulanan-Gerilim-Grafiği.PNG
         
-Faz Kablolarına Uygulanan Gerilim Grafiği
+Şekil 5. Faz Kablolarına Uygulanan Gerilim Grafiği [5]
 
 .. image:: ../resimler/Örnek-Elektronik-Hız-Kontrolcüsü.PNG
         :target: ../_resimler/Örnek-Elektronik-Hız-Kontrolcüsü.PNG
 
-Örnek Elektronik Hız Kontrolcüsü 
+Şekil 6. Örnek Elektronik Hız Kontrolcüsü [7]
 
 Fırçasız DC motorların sahip olduğu önemli özellikleri bulunmaktadır. İHA’mıza en optimize motoru seçebilmek için bu özellikler iyi bilinmeli, İHA’mızın gerçekleştireceği göreve göre uygun motor seçilmelidir.
 
@@ -55,14 +55,14 @@ Döner kanatlı İHA’larda kaldırma kuvveti motorların sağlayacakları topl
 .. image:: ../resimler/İtki-Ağırlık-Oranı-Tablosu.PNG
         :target: ../_resimler/İtki-Ağırlık-Oranı-Tablosu.PNG
 
-İtki Ağırlık Oranı Tablosu 
+Şekil 7. İtki Ağırlık Oranı Tablosu [9]
 
 Belirlenen itki ağırlık oranından sonra istenilen itkiyi sağlayacak motor seçiminde birçok motor incelenmelidir. Bu araştırmada motor satıcılarının sundukları veri sayfalarından yararlanılmaktadır. Bu veri sayfaları incelenirken dikkat edilmesi gereken hususlar motorumuzu hangi pervane ile kaç S’lik pil ile çalıştırmayı düşündüğümüzdür. Bu seçimler ile motorun itki ve verim değerleri de değişmektedir. Bulduğumuz itki ağırlık oranımızdan elde ettiğimiz itki değerimiz %100 gaz verildiği zaman elde edilmesi gereken veri olmalıdır. Hava aracımız genellikle uçuş sırasında bu değerin altında çalışacaktır. Yine bu tablodan alınan akım değerleri ile ortalama uçuş süresi hesabı yapılacak olup ayrı bir başlıkta incelenecektir.
 
 .. image:: ../resimler/Örnek-Motor-Veri-Sayfası.PNG
         :target: ../_resimler/Örnek-Motor-Veri-Sayfası.PNG
 
-Örnek Motor Veri Sayfası 
+Şekil 8. Örnek Motor Veri Sayfası [8]
 
 Motor Boyutu
 ============
@@ -76,7 +76,7 @@ Daha uzun statora sahip motorlarda daha büyük bir yüzey alanı vardır. Bu ne
 .. image:: ../resimler/Motor-İç-Görünümü.jpg
         :target: ../_resimler/Motor-İç-Görünümü.jpg
 
-Motor İç Görünümü 
+Şekil 9. Motor İç Görünümü [10]
 
 KV Değeri
 =========
@@ -115,7 +115,7 @@ Motorların sahip oldukları bobin ve mıknatıs sayıları XXNXXP ifadeleri ile
 .. image:: ../resimler/Motor-Bobin-ve-Mıknatısları.jpg
         :target: ../_resimler/Motor-Bobin-ve-Mıknatısları.jpg
 
-Motor Bobin ve Mıknatısları
+Şekil 10. Motor Bobin ve Mıknatısları
 
 Farklı boyutlardaki motorlar farklı sayılarda kutuplara sahip olsalar da 22xx ve 23xx motorlar genellikle 12 kutpa ve 14 mıknatısa sahip olurlar.
 
@@ -136,7 +136,7 @@ Motor büyüklüğüne karar verilirken öncelikle kullanılacak şasenin boyutu
 .. image:: ../resimler/Motor-Boyut-Seçimi-Referans-Tablosu.PNG
         :target: ../_resimler/Motor-Boyut-Seçimi-Referans-Tablosu.PNG
 
-Motor Boyut Seçimi Referans Tablosu
+Şekil 11. Motor Boyut Seçimi Referans Tablosu
 
 Motor ESC Bağlantısı
 ====================
@@ -145,7 +145,7 @@ Motorları ESC’ye bağlarken istenilen sıraya göre bağlamakta herhangi bir 
 .. image:: ../resimler/Motor-ESC-Bağlantısı-ve-Dönüş-Yönleri.jpg
         :target: ../_resimler/Motor-ESC-Bağlantısı-ve-Dönüş-Yönleri.jpg
 
-Motor ESC Bağlantısı ve Dönüş Yönleri
+Şekil 12. Motor ESC Bağlantısı ve Dönüş Yönleri
 
 Referanslar:
 ~~~~~~~~~~~~~
@@ -188,3 +188,5 @@ Genel Olarak Faydalanan Kaynaklar:
  https://www.quora.com/On-electric-motors-can-anyone-explain-in-laymans-terms-what-turns-means-e-g-9-turn-motor
 
  https://www.groschopp.com/how-to-calculate-your-torque-constant/
+ 
+ 
