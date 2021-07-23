@@ -32,6 +32,11 @@ Fırçasız DC motorların motorun dönen kısmının içerde (Inrunner) veya d�
 
 Fırçasız motorlar fırçalı motorlardaki gibi doğrudan bir DC güç kaynağı ile çalışamazlar. Sabit bir tork üretebilmek için Şekil 5’te de görüldüğü gibi elektrik geriliminin motorun faz kablolarına değişimli olarak uygulanması gerekmektedir. Bu çalışma mantığının daha iyi anlaşılması için animasyonlar izlenebilir [6]. Fırçasız motorlar değişen bu gerilimin sağlanabilmesi için bir sürücüye ihtiyaç duyarlar. Bu sürücü devresine Elektronik Hız Kontrolcüsü (Electronic Speed Controller) denmektedir. Elektronik hız kontrolcüleri detaylı bir şekilde ayrı bir başlıkta ele alınacak olup Şekil 6’de örnek olarak görülmektedir.
 
+.. image:: ../resimler/Faz-Kablolarına-Uygulanan-Gerilim-Grafiği.PNG
+        :target: ../_resimler/Faz-Kablolarına-Uygulanan-Gerilim-Grafiği.PNG
+        
+Faz Kablolarına Uygulanan Gerilim Grafiği
+
 Fırçasız DC motorların sahip olduğu önemli özellikleri bulunmaktadır. İHA’mıza en optimize motoru seçebilmek için bu özellikler iyi bilinmeli, İHA’mızın gerçekleştireceği göreve göre uygun motor seçilmelidir.
 
 Özellikler
