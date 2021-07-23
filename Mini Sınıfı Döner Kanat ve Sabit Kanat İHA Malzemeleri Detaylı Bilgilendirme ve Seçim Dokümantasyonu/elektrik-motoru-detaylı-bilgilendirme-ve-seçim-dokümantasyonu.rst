@@ -37,6 +37,11 @@ Fırçasız motorlar fırçalı motorlardaki gibi doğrudan bir DC güç kaynağ
         
 Faz Kablolarına Uygulanan Gerilim Grafiği
 
+.. image:: ../resimler/Örnek-Elektronik-Hız-Kontrolcüsü.PNG
+        :target: ../_resimler/Örnek-Elektronik-Hız-Kontrolcüsü.PNG
+
+Örnek Elektronik Hız Kontrolcüsü 
+
 Fırçasız DC motorların sahip olduğu önemli özellikleri bulunmaktadır. İHA’mıza en optimize motoru seçebilmek için bu özellikler iyi bilinmeli, İHA’mızın gerçekleştireceği göreve göre uygun motor seçilmelidir.
 
 Özellikler
@@ -47,7 +52,17 @@ Genellikle motor seçimlerinde göz önüne alınan birincil faktördür. Hava a
 
 Döner kanatlı İHA’larda kaldırma kuvveti motorların sağlayacakları toplam itki kuvvetine eşit olacağı için kalkış ağırlığımızdan daha fazla olmalıdır. İstenilen toplam itki, itki ağırlık oranı ile belirlenir. İtki ağırlık oranı İHA’mızın sahip olduğu itki kuvvetinin İHA’mızın toplam ağırlığına oranıdır. Bu oran İHA’nın isterlerine göre değişmektedir. Şekil 7 de belirtildiği gibi kullanım amacına göre bu oran değişmektedir. Genel olarak kabul gören bu oran %50 itki ile (Yarım gaz) döner kanatlı İHA’nın havalanabilmesidir. Orta ve şiddetli rüzgârda dahi uçabilmesi istenilen, atik manevralar yapabilmesi gereken döner kanatlı bir İHA’nın ise yaklaşık 2.5 itki ağırlık oranına sahip olması gerekmektedir. Sabit kanatlı İHA’larda bu oranın belirlenebilmesi daha karmaşık olup ayrı bir başlıkta incelenmelidir. Kabaca optimize bir oran olmasa da yine orta ve şiddetli rüzgarlarda uçması, atik manevralar yapabilmesi istenilen bir sabit kanat Mini İHA’nın yaklaşık 0.8 itki ağırlık oranına sahip olması gerekmektedir.
 
+.. image:: ../resimler/İtki-Ağırlık-Oranı-Tablosu.PNG
+        :target: ../_resimler/İtki-Ağırlık-Oranı-Tablosu.PNG
+
+İtki Ağırlık Oranı Tablosu 
+
 Belirlenen itki ağırlık oranından sonra istenilen itkiyi sağlayacak motor seçiminde birçok motor incelenmelidir. Bu araştırmada motor satıcılarının sundukları veri sayfalarından yararlanılmaktadır. Bu veri sayfaları incelenirken dikkat edilmesi gereken hususlar motorumuzu hangi pervane ile kaç S’lik pil ile çalıştırmayı düşündüğümüzdür. Bu seçimler ile motorun itki ve verim değerleri de değişmektedir. Bulduğumuz itki ağırlık oranımızdan elde ettiğimiz itki değerimiz %100 gaz verildiği zaman elde edilmesi gereken veri olmalıdır. Hava aracımız genellikle uçuş sırasında bu değerin altında çalışacaktır. Yine bu tablodan alınan akım değerleri ile ortalama uçuş süresi hesabı yapılacak olup ayrı bir başlıkta incelenecektir.
+
+.. image:: ../resimler/Örnek-Motor-Veri-Sayfası.PNG
+        :target: ../_resimler/Örnek-Motor-Veri-Sayfası.PNG
+
+Örnek Motor Veri Sayfası 
 
 Motor Boyutu
 ============
@@ -56,6 +71,12 @@ Fırçasız DC motorların boyutları 4 haneli sayılar ile gösterilmektedir. X
 Öncelikle bu iki değerin de fazla olması motorun sağlayacağı maksimum tork değerini arttırmaktadır. Yine motorlar büyüdükçe üretebilecekleri itki değerleri de artmaktadır. YY sayısının büyümesi yani motorun daha uzun bir statora sahip olması maksimum dönüş hızını arttırırken düşük hızlardaki performansını azaltmaktadır. XX sayısının büyümesi yani daha geniş bir statora sahip olunması daha düşük bir maksimum hız sunarken düşük hızlardaki performansını arttırmaktadır.
 
 Daha uzun statora sahip motorlarda daha büyük bir yüzey alanı vardır. Bu nedenle daha fazla manyetik alan kesebilir. Yine daha geniş yüzey alanına sahip olmasıyla ısı dağılımı da daha iyidir. Daha geniş statora sahip motorlar daha yüksek torklu ve daha verimlidirler.
+
+
+.. image:: ../resimler/Motor-İç-Görünümü.jpg
+        :target: ../_resimler/Motor-İç-Görünümü.jpg
+
+Motor İç Görünümü 
 
 KV Değeri
 =========
@@ -91,6 +112,11 @@ Motor Kutup ve Mıknatısları
 ===========================
 Motorların sahip oldukları bobin ve mıknatıs sayıları XXNXXP ifadeleri ile gösterilmektedir. N’den önceki sayı statorda bulunan bobinlerin sayısını gösterirken, P’den önceki sayı motorun dönen dış bölgesindeki mıknatısların sayısını göstermektedir.
 
+.. image:: ../resimler/Motor-Bobin-ve-Mıknatısları.jpg
+        :target: ../_resimler/Motor-Bobin-ve-Mıknatısları.jpg
+
+Motor Bobin ve Mıknatısları
+
 Farklı boyutlardaki motorlar farklı sayılarda kutuplara sahip olsalar da 22xx ve 23xx motorlar genellikle 12 kutpa ve 14 mıknatısa sahip olurlar.
 
 Kutuplar arasındaki mesafeyi kutup sayısı belirler. Eğer daha az kutup varsa statorun içi daha çok demir bileşenle kaplanabilir. Ancak fazla sayıda kutup ile manyetik alan daha eşit şekilde yayılır ve rotorun dönüşü üzerine daha çok kontrol sahibi olunduğundan daha pürüzsüz dönen bir motor elde edilmiş olur. Daha fazla kutup daha pürüzsüz dönüş sağlarken, daha az kutup daha güçlü motor anlamına gelir.
@@ -107,9 +133,19 @@ Döner Kanatlı İHA’larda Motor Büyüklüğünün Belirlenmesi
 =======================================================
 Motor büyüklüğüne karar verilirken öncelikle kullanılacak şasenin boyutu belirlenmelidir. Bu şaseye uygun olan pervane boyutuna göre tablo da önerilen motor boyutları ile motor araştırmasına başlanabilir. Verilen tablo 4S’lik bir pil kullanımı varsayılarak hazırlanmıştır.
 
+.. image:: ../resimler/Motor-Boyut-Seçimi-Referans-Tablosu.PNG
+        :target: ../_resimler/Motor-Boyut-Seçimi-Referans-Tablosu.PNG
+
+Motor Boyut Seçimi Referans Tablosu
+
 Motor ESC Bağlantısı
 ====================
 Motorları ESC’ye bağlarken istenilen sıraya göre bağlamakta herhangi bir sorun yoktur. Eğer motor istenen yöne dönmüyorsa herhangi iki bağlantının yeri değiştirilip motorun istenen yöne dönmesi sağlanabilir. Aynı zamanda bazı ESC’lerde ESC ayarlarından da bunu ayarlamak mümkündür.
+
+.. image:: ../resimler/Motor-ESC-Bağlantısı-ve-Dönüş-Yönleri.jpg
+        :target: ../_resimler/Motor-ESC-Bağlantısı-ve-Dönüş-Yönleri.jpg
+
+Motor ESC Bağlantısı ve Dönüş Yönleri
 
 Referanslar:
 ~~~~~~~~~~~~~
