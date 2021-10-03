@@ -2,7 +2,7 @@
 Mini Sınıfı Döner Kanat ve Sabit Kanat İHA’lar için Elektrik Motoru Detaylı Bilgilendirme ve Seçim Dokümantasyonu
 =================================================================================================================
 
-Elektrik motorları, elektrik enerjisini mekanik enerjiye dönüştüren makinelerdir. Bu dönüşüm motordaki mıknatısların oluşturduğu manyetik alan ve bobinlere sarılı tellerden geçen akımın oluşturduğu elektrik alan arasında oluşan kuvvetle sağlanmaktadır. Bu ilişki Fleming'in sol el kuralı ile açıklanabilir [1]; daha iyi anlaşılması için Şekil 1 incelenmelidir.
+Elektrik motorları, elektrik enerjisini mekanik enerjiye dönüştüren makinelerdir. Bu dönüşüm motordaki mıknatısların oluşturduğu manyetik alan ve bobinlere sarılı tellerden geçen akımın oluşturduğu elektrik alan arasında oluşan kuvvetle sağlanmaktadır. Bu ilişki Fleming'in sol el kuralı ile açıklanabilir [1]; daha iyi anlaşılması için Şekil 1 incelenmelidir. Merhaba.
 
 .. image:: ../resimler/Fleming'in-Sol-El-Kuralı.PNG
    :target: ../_resimler/Fleming'in-Sol-El-Kuralı.PNG
